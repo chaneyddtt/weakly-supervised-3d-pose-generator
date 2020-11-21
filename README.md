@@ -13,7 +13,9 @@ Our deep generative network is conditioned on an input 2D pose. Latent codes are
 
 Our network consists of four components: (1) a pose generator to generate multiple 3D pose hypotheses from 2D input and latent code; (2) a camera network that estimates the camera matrix to project the generated 3D pose into 2D space; (3) a discriminator as a prior of 3D poses; and (4) an encoder as a second prior to prevent model collapse.
 
-![Network architecture](Network.png)
+<p align="center">
+  <img width="684" height="245" src="Network.png">
+</p>
 
 For more details, please refer to [our paper](https://www.bmvc2020-conference.com/assets/papers/0330.pdf)
 
